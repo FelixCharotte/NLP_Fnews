@@ -1,0 +1,21 @@
+1) Structuration et préparation de la donnée  
+
+Recuperation d’un dataset sur Hugging Face 
+Transformation et cleaning de la donnée 
+- Selectionner les news contenant “Bitcoin” 
+- Conversion de la date en jour (pas possible en minutes) 
+- Récupération du prix du bitcoin par jour (à 00h) sur la période donnée (transformation format data) 
+- Merge of the two datasets (image) 
+- Transformation of the price variation columns into 4 categories (Extreme bearish, Bearish, Bulish, Extreme Bulish) 
+- Add of an instruction column (prompt for the LLM) 
+
+2) Uploading of the dataset on HuggingFace  
+
+3) Fine-tunning on the data 
+
+Importation of the Llamma3 model 8B instruct (explication of the choice) 
+Most optimised model and low to run 
+Integration LoRA adaptaters (hyperparameters of fine-tunning) 
+Transform dataset into system prompt syntax (to detail)  
+
+ 
